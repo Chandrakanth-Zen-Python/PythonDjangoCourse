@@ -1,0 +1,26 @@
+
+.navbar {
+    background-color:#0A1D56;
+}
+
+.navbar-nav .nav-link {
+    font-family:"Lora", serif;
+    color: #F2F597;
+    margin-right: 25px;
+}
+
+.dropdown-menu {
+    background-color:#0A1D56;
+   
+
+}
+
+.dropdown-item{
+    color: #F2F597;
+
+}
+
+.btn {
+    background-color: #492E87;
+}
+
