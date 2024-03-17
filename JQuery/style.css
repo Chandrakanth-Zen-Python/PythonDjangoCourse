@@ -1,0 +1,15 @@
+
+
+/* table{
+    border: 10px solid black;
+    border-radius: 50%;
+} */
+
+td {
+    width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+  border: 4px solid black; /*this gets rid of bootstrap shadow*/
+  margin: 1px;
+}

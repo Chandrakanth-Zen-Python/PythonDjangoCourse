@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <title>Users</title>
+    <link rel="stylesheet" href="{% static 'css/App2/style.css' %}">
+</head>
+
+<body>
+    <h1>Welcome To Users SignUp</h1>
+
+    <div class="container">
+
+        <form method="post">
+            {{form.as_p}}
+            {% csrf_token %}
+            <input class='btn btn-primary' type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
